@@ -2,7 +2,7 @@ name: yuldashov-oybek-student-api
 
 services:
   app:
-    image: yuldashov-oybek-student-api:v1.0-yuldashov-oybek
+    image: yuldashov-oybek-student-api:v1.1-yuldashov-oybek
     build: .
     container_name: yuldashov-oybek-app
     ports:
