@@ -1,4 +1,4 @@
-# Oybek Yuldashov Student API
+# Oybek Yuldashov Student API - documentation version
 
 Spring Boot CRUD application (group IT2-23) with PostgreSQL, Docker Compose and Jenkins.
 
