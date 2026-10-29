@@ -51,4 +51,9 @@ public class StudentController {
         repository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/group/{group}")
+    public List<Student> getByGroup(@PathVariable String group) {
+        return repository.findByGroupName(group);
+    }
 }
