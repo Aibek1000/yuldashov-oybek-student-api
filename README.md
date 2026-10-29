@@ -6,3 +6,4 @@ Author: Oybek Yuldashov
 ## Change by Oybek Yuldashov
 Added GET /students/group/{group} to list students of a group (e.g. IT2-23).
 Jenkins CI automation verified by Oybek Yuldashov (IT2-23)
+Automatic Jenkins polling test - Oybek Yuldashov
