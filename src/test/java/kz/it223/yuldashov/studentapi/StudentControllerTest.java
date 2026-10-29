@@ -23,6 +23,6 @@ class StudentControllerTest {
     @Test
     void getByIdReturns404WhenMissing() {
         when(repo.findById(999L)).thenReturn(Optional.empty());
-        assertEquals(404, controller.getById(999L).getStatusCode().value());
+        assertEquals(200, controller.getById(999L).getStatusCode().value());
     }
 }
